@@ -12,8 +12,3 @@ const javaScriptIsFun = true;
 console.log(javaScriptIsFun);
 let year = 2024;
 let name = "John";
-
-console.log(typeof javaScriptIsFun);
-console.log(typeof false);
-console.log(typeof year);
-console.log(typeof name);
