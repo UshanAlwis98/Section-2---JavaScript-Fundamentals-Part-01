@@ -12,3 +12,6 @@ const javaScriptIsFun = true;
 console.log(javaScriptIsFun);
 let year = 2024;
 let name = "John";
+
+let result = 10 + 5 * 2;
+console.log(result);
