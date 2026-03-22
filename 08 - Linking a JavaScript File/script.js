@@ -8,3 +8,5 @@ if (ushan > dilan) {
 } else {
   console.log("Ushan and Dilan are the same age");
 }
+
+console.log(2 + 3 + 4 + "5");
