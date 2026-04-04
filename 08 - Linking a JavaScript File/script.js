@@ -1,12 +1,15 @@
-let ushan = 27;
-let dilan = 28;
+const hasDriversLicense = true;
+const hasGoodVision = true;
 
-if (ushan > dilan) {
-  console.log("Ushan is older than Dilan");
-} else if (ushan < dilan) {
-  console.log("Dilan is older than Ushan");
+console.log(hasDriversLicense && hasGoodVision); // true
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense); // false
+
+if (hasDriversLicense && hasGoodVision) {
+  console.log("Sarah is able to drive!");
 } else {
-  console.log("Ushan and Dilan are the same age");
+  console.log("Someone else should drive...");
 }
 
-console.log(2 + 3 + 4 + "5");
+const isTired = true;
+console.log(hasDriversLicense && hasGoodVision && isTired);
